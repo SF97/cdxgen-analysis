@@ -1,0 +1,1256 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0ac34b12-1d71-434c-86a5-73a20c5674c9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-09-10T11:37:18.796Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.7.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.7.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.7.1"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "cdx-gen-analysis",
+      "type": "application",
+      "bom-ref": "pkg:npm/cdx-gen-analysis",
+      "purl": "pkg:npm/cdx-gen-analysis",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "author": "",
+      "publisher": "",
+      "group": "@mongodb-js",
+      "name": "saslprep",
+      "version": "1.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5df8a3cbb1ef7f3cea88e02101ea45e1218de5ef6578b90cbe0fce3ce17ded77a68df54260dfe859aef9c2791cea696d3124f063e5e56e15a050e266905b294b"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/%40mongodb-js/saslprep@1.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@mongodb-js/saslprep@1.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "@types",
+      "name": "node",
+      "version": "20.6.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9da8e356ae4a376bec1f653fc72876a29692133e9c64c47649eb4b225c658f4f2739c98f39e9899942b6a38914cdf2ea7eb584d0f22b35e135e978580ddde7aa"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/%40types/node@20.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/node@20.6.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "@types",
+      "name": "webidl-conversions",
+      "version": "7.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c5313513e605e1a58f249794cda648e43467b65918dfe0425498b46b1169b678c6980a16c64c9110887f5ccadfc552de8f04313027c35dd202a3454bc5386ba2"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/%40types/webidl-conversions@7.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/webidl-conversions@7.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "@types",
+      "name": "whatwg-url",
+      "version": "8.2.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "16d42ed74456827dc3f54e1a6b3770204db2ce98664c94440ea35d3831eb6eb66698ca88d2f321782ffa344fc9d58bde6a3f07f9e95af98c164e3ab93c69ae84"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/%40types/whatwg-url@8.2.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/whatwg-url@8.2.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "bson",
+      "version": "5.4.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "59167949023919f52e2a73d33660183e2288a1fdce457005e08454e547209a2bcd2289f4d6b590970e51507f79e1da6ef3218bf13e7d61285575d20f694fe014"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/bson@5.4.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/bson@5.4.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "debug",
+      "version": "4.3.4",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3d15851ee494dde0ed4093ef9cd63b25c91eb758f4b793ae3ac1733cfcec7a40f9d9997ca947c520f122b305ea22f1d61951ce817fbb1bfbc234d85e870c5f91"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/debug@4.3.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@4.3.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "deep-extend",
+      "version": "0.6.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2ce1f120e68f61d1e5251b4241f0c8559b5fc3fb9f33cfab563eb8f51207cdc9bfbc6c1045716de8e3ea2055ac9b65c432b34812d591eb8b18d4b10a0f6bc038"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/deep-extend@0.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/deep-extend@0.6.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "ini",
+      "version": "1.3.8",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "255ff2ba0576bb35b988c4528990320ed41dfa7c6d5278de2edd1a70d770f7c90a2ebbee455c81f34b6c444384ef2bc65606a5859e913570a61079142812b17b"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/ini@1.3.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/ini@1.3.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "ip",
+      "version": "2.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "58a6be5ee2c6d40d51d145a1976fb55d04a2f9f65632c60a7df3194d362c8996940fc936c83023e5ab62993503d93664c8290d11e604e4d845666ba9386b6361"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/ip@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/ip@2.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "kareem",
+      "version": "2.5.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ee31714559be8c3fab92ade46348990c97ec3b6fede0104f7846f6a8a9f6951ffd2a1ba4b18939871cdf45858c3d5f0fff1d9dd241c3df4e98c962f38e31feb8"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/kareem@2.5.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/kareem@2.5.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "memory-pager",
+      "version": "1.5.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "652e01a78aff6687aaebe34b2693fed19ce6d2947cc21b463dfd5713128b24101ccc63274a2dc8b75e0e88d092b6342333a354d689234064b180464df1e0582a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/memory-pager@1.5.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/memory-pager@1.5.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "minimist",
+      "version": "1.2.8",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "db2c8047ca8190ddd8ba17896a7529582e54ddb6f9a2c0f2c0d07c4730d5943c031dba1c009bdeaaa8f5bbcf92543ee39164f8cafb070a95aaa96a80c5bd3308"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/minimist@1.2.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/minimist@1.2.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "mongodb-connection-string-url",
+      "version": "2.6.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5af4d9948f5a6f4418b53627b8c2e0a1b50b5a1a24463b42edd6fd2ed7157c9f87b27cabe5ea3a66d340b772f2db85d949c18c7a539c1ad9bb9529f4df7dad3d"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/mongodb-connection-string-url@2.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mongodb-connection-string-url@2.6.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "mongodb",
+      "version": "5.8.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c0aca1e2466f9ba36b08f1fc031cb35e6dc906811fe17ba5a346945a1de10a0c20609c7243528b493f3a65969259d8fafe4c58500dfe619bb2003084eb508c4a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/mongodb@5.8.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/mongodb@5.8.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "mongoose",
+      "version": "7.5.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "16939639bd0026e695729966132209d9e09b5467b880ea2788f0fea667ede41ac6acdaec15c9d85e5111757b410291873073f00fb59bc53ca109b50dafbd85dd"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/mongoose@7.5.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mongoose@7.5.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "mpath",
+      "version": "0.9.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8a425141393c870e43128155c471b51a7f53ff1723b5d9ce2885352539868d966583d2d24f69812e6717dff20221b809c9d4f618e735e519cdcb99879b37d27b"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/mpath@0.9.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mpath@0.9.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "mquery",
+      "version": "5.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8903277299842bc47c9dc4fc1c91ac19cf43b29f3172060c5526ece638279b59451d366a3094d45930f1d4b04ef3e98aded3cd65614b0608501083942d24c766"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/mquery@5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mquery@5.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "ms",
+      "version": "2.1.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b0690fc7e56332d980e8c5f6ee80381411442c50996784b85ea7863970afebcb53fa36f7be4fd1c9a2963f43d32b25ad98b48cd1bf9a7544c4bdbb353c4687db"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/ms@2.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "ms",
+      "version": "2.1.3",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e85973b9b4cb646dc9d9afcd542025784863ceae68c601f268253dc985ef70bb2fa1568726afece715c8ebf5d73fab73ed1f7100eb479d23bfb57b45dd645394"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/ms@2.1.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.1.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "punycode",
+      "version": "2.3.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ad157ecd00fcb55172b36ea500647d594b92e225009e025270cf994522adbe5e6d29e676b796ef74d15d347056f45591e20b861e5826b19d46ec14a6db04dbb8"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/punycode@2.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/punycode@2.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "rc",
+      "version": "1.2.8",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cb76c682a2a3dd005dc4b6cb9289a5a2192fb00f207408944254812670617e7f813f18386dceb677c4dc056d79c1abc37e07b10a071c72485c66fcb0c9060f3b"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/rc@1.2.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/rc@1.2.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "sift",
+      "version": "16.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5afe818d0e736e15bb54579f5aeb153f7dd3fc4334bd88a409a436a91f3250b6ec8a5013f3fc10697bee437a6d18ba682b1fa58a1244df2d944e0283cb234765"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/sift@16.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/sift@16.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "smart-buffer",
+      "version": "4.2.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f7884ad0787cacfa90976c577371ec681a0e5ca576d0c4e83e4717bf06c84962c4b3eeb8b01ab9905827da42431dbd4faf2f72acfd1dc6b088f5145c8bb4572a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/smart-buffer@4.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/smart-buffer@4.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "socks",
+      "version": "2.7.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ee6694672d4deeea3af965445faa6c012c6d36529a3553251902a41bfeb79c40dd2ce58d6e250ca0b2bb5f8b98a0b850b2d6aeef698b81f116717730b1a1db61"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/socks@2.7.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/socks@2.7.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "sparse-bitfield",
+      "version": "3.0.3",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ff4ae6e68656056ba4b3e792ab3334d38273ca11"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/sparse-bitfield@3.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/sparse-bitfield@3.0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "strip-json-comments",
+      "version": "2.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3c531942e908c2697c0ec344858c286c7ca0a60a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/strip-json-comments@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/strip-json-comments@2.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "tr46",
+      "version": "3.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "97b16f7c01e5726ba5a7c92bf9f969419995c2dbbb9df455ecd66e8ed3743aa112f042f83b87b4aaaccbd030b9800bf1fd90bff6593aae1714c18be406706760"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/tr46@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/tr46@3.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "webidl-conversions",
+      "version": "7.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "57075d06e903ceeef5a1f7c0411f7be6e9c1206a9f299a4cfbc657eb24a4f27621568a39098699cb3b77601bd8b51b4ef9aa0696ac4f83f07cecd19567f7eeea"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/webidl-conversions@7.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/webidl-conversions@7.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "whatwg-url",
+      "version": "11.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "44a4fc1c4c4ca68631e2280c895318f3794de947884ca265050faf47ff1927c38275288ddd1c02abef601f4f97ce3d3ee48accea2e23ffa2eebf36d921080471"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/whatwg-url@11.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/whatwg-url@11.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "<redacted-path>/cdx-gen-analysis/pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/cdx-gen-analysis",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@mongodb-js/saslprep@1.1.0",
+      "dependsOn": ["pkg:npm/sparse-bitfield@3.0.3"]
+    },
+    {
+      "ref": "pkg:npm/@types/node@20.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@types/webidl-conversions@7.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@types/whatwg-url@8.2.2",
+      "dependsOn": [
+        "pkg:npm/@types/node@20.6.0",
+        "pkg:npm/@types/webidl-conversions@7.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/bson@5.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/debug@4.3.4",
+      "dependsOn": ["pkg:npm/ms@2.1.2"]
+    },
+    {
+      "ref": "pkg:npm/deep-extend@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ini@1.3.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ip@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/kareem@2.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/memory-pager@1.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/minimist@1.2.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/mongodb-connection-string-url@2.6.0",
+      "dependsOn": [
+        "pkg:npm/@types/whatwg-url@8.2.2",
+        "pkg:npm/whatwg-url@11.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/mongodb@5.8.1",
+      "dependsOn": [
+        "pkg:npm/bson@5.4.0",
+        "pkg:npm/mongodb-connection-string-url@2.6.0",
+        "pkg:npm/socks@2.7.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/mongoose@7.5.0",
+      "dependsOn": [
+        "pkg:npm/bson@5.4.0",
+        "pkg:npm/kareem@2.5.1",
+        "pkg:npm/mongodb@5.8.1",
+        "pkg:npm/mpath@0.9.0",
+        "pkg:npm/mquery@5.0.0",
+        "pkg:npm/ms@2.1.3",
+        "pkg:npm/sift@16.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/mpath@0.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/mquery@5.0.0",
+      "dependsOn": ["pkg:npm/debug@4.3.4"]
+    },
+    {
+      "ref": "pkg:npm/ms@2.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ms@2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/punycode@2.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/rc@1.2.8",
+      "dependsOn": [
+        "pkg:npm/deep-extend@0.6.0",
+        "pkg:npm/ini@1.3.8",
+        "pkg:npm/minimist@1.2.8",
+        "pkg:npm/strip-json-comments@2.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/sift@16.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/smart-buffer@4.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/socks@2.7.1",
+      "dependsOn": ["pkg:npm/ip@2.0.0", "pkg:npm/smart-buffer@4.2.0"]
+    },
+    {
+      "ref": "pkg:npm/sparse-bitfield@3.0.3",
+      "dependsOn": ["pkg:npm/memory-pager@1.5.0"]
+    },
+    {
+      "ref": "pkg:npm/strip-json-comments@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/tr46@3.0.0",
+      "dependsOn": ["pkg:npm/punycode@2.3.0"]
+    },
+    {
+      "ref": "pkg:npm/webidl-conversions@7.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/whatwg-url@11.0.0",
+      "dependsOn": ["pkg:npm/tr46@3.0.0", "pkg:npm/webidl-conversions@7.0.0"]
+    }
+  ]
+}
